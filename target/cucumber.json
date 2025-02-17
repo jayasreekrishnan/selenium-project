@@ -1,0 +1,203 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 567100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.setup()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Successful login for valid username and password",
+        "description": "",
+        "id": "to-validate-the-login-functionality-by-using-invalid-credentials;successful-login-for-valid-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 22800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 122000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "to launch the chrome browser and maximize window",
+            "match": {
+              "location": "background.to_launch_the_chrome_browser_and_maximize_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 33900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "to launch the url of the facebook application",
+            "match": {
+              "location": "background.to_launch_the_url_of_the_facebook_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 146800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user enters \"Admin1\" and \"Admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin1\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"Admin123\"",
+                  "offset": 29
+                }
+              ],
+              "location": "background.the_user_enters_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click on the Login button",
+            "match": {
+              "location": "background.click_on_the_Login_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Mytest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 54800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.setup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Successful login for invalid username and password",
+        "description": "",
+        "id": "to-validate-the-login-functionality-by-using-invalid-credentials;successful-login-for-invalid-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 20900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 30900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "to launch the chrome browser and maximize window",
+            "match": {
+              "location": "background.to_launch_the_chrome_browser_and_maximize_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "to launch the url of the facebook application",
+            "match": {
+              "location": "background.to_launch_the_url_of_the_facebook_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 67300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user enters \"Inmakes\" and \"Inamkes123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Inmakes\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"Inamkes123\"",
+                  "offset": 30
+                }
+              ],
+              "location": "background.the_user_enters_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Click on the Login button",
+            "match": {
+              "location": "background.click_on_the_Login_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Mytest"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functionality by using invalid credentials",
+    "description": "",
+    "id": "to-validate-the-login-functionality-by-using-invalid-credentials",
+    "keyword": "Feature",
+    "uri": "src/test/resources/scenarionout.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0.00347">
+<testcase classname="To validate the login functionality by using invalid credentials" name="Successful login for valid username and password" time="0.003027">
+<system-out><![CDATA[Given to launch the chrome browser and maximize window......................passed
+When to launch the url of the facebook application..........................passed
+When the user enters "Admin1" and "Admin123"................................passed
+And Click on the Login button...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the login functionality by using invalid credentials" name="Successful login for invalid username and password" time="0.000443">
+<system-out><![CDATA[Given to launch the chrome browser and maximize window......................passed
+When to launch the url of the facebook application..........................passed
+When the user enters "Inmakes" and "Inamkes123".............................passed
+And Click on the Login button...............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

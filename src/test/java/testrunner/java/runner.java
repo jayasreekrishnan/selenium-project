@@ -11,23 +11,15 @@ import cucumber.api.junit.Cucumber;
 		features = "src/test/resources/scenarionout.feature",
 		glue = "org.stepdefinition",
 		dryRun = false,
-		plugin = {"pretty","junit:target/cucumber.xml"}
-
-		
-		
-		//plugin = {"pretty","json:target/cucumber.json"}
-
-		
 		
 		//plugin = {"pretty","html:target/cucumber-reports.html"}
 
-		
-		//plugin = {"usage"}
-		
-		//plugin = {"pretty"}
 
-		
+		//plugin = {"pretty", "json:target/cucumber.json"}
 
+		//plugin = {"pretty","junit:target/cucumber.xml"},
+		plugin = {"usage"}
+		
 
 )
 
